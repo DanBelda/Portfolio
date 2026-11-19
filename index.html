@@ -1,855 +1,251 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#101a31" />
-    <meta
-      name="description"
-      content="Dan Aeron P. Belda is a fourth-year BSIT Networking student and aspiring web developer in San Pablo, Laguna."
-    />
-    <meta name="author" content="Dan Aeron P. Belda" />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Dan Aeron P. Belda | Web Development &amp; Networking Portfolio"
-    />
-    <meta
-      property="og:description"
-      content="Aspiring web developer and BSIT Networking student building practical experience in software, mobile app, and machine-learning projects."
-    />
-    <meta property="og:url" content="https://danbelda.github.io/LAB-EXERCISE-1/" />
-    <meta
-      property="og:image"
-      content="https://danbelda.github.io/LAB-EXERCISE-1/Profile%20pic.jpg"
-    />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23101a31'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial,sans-serif' font-size='27' font-weight='700' fill='%2372dfc4'%3EDB%3C/text%3E%3C/svg%3E"
-    />
-    <title>Dan Aeron P. Belda | Web Development &amp; Networking Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <header class="site-header">
-      <div class="container nav-wrap">
-        <a class="brand" href="#top" aria-label="Dan Aeron P. Belda, home"
-          ><span class="brand-mark" aria-hidden="true">DB</span>Dan Belda</a
-        >
-        <button
-          class="menu-button"
-          id="menu-toggle"
-          type="button"
-          aria-label="Open navigation menu"
-          aria-expanded="false"
-          aria-controls="nav-panel"
-        >
-          ☰
-        </button>
-        <div class="nav-panel" id="nav-panel" data-open="false">
-          <nav aria-label="Main navigation">
-            <ul class="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#experience">Experience</a></li>
-              <li><a href="#certifications">Certifications</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
-          <div class="nav-actions">
-            <button
-              class="icon-button"
-              id="theme-toggle"
-              type="button"
-              aria-label="Switch to dark mode"
-              aria-pressed="false"
-              title="Toggle color theme"
-            >
-              <span aria-hidden="true">◐</span>
-            </button>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main id="main">
-      <section class="hero" id="top" aria-labelledby="hero-title">
-        <svg
-          class="network-art"
-          viewBox="0 0 480 360"
-          fill="none"
-          aria-hidden="true"
-          focusable="false"
-        >
-          <g stroke="#72dfc4" stroke-width="1.5">
-            <path
-              d="M40 265 126 197l80 37 74-105 91 45 68-87M126 197l17-119 89 47 48 4M206 234l27 93 86-47 52-113M143 78l89 47-26 109M280 129l-48-4 51 109 88-65M371 174l68 87-120 19-86 47"
-              stroke-opacity=".8"
-            />
-          </g>
-          <g fill="#72dfc4">
-            <circle cx="40" cy="265" r="5" />
-            <circle cx="126" cy="197" r="7" />
-            <circle cx="206" cy="234" r="5" />
-            <circle cx="280" cy="129" r="7" />
-            <circle cx="371" cy="174" r="6" />
-            <circle cx="439" cy="87" r="5" />
-            <circle cx="143" cy="78" r="5" />
-            <circle cx="232" cy="125" r="4" />
-            <circle cx="233" cy="327" r="5" />
-            <circle cx="319" cy="280" r="6" />
-            <circle cx="439" cy="261" r="4" />
-          </g>
-          <g fill="#91a0ff">
-            <circle cx="206" cy="234" r="2" />
-            <circle cx="371" cy="174" r="2" />
-            <circle cx="143" cy="78" r="2" />
-          </g>
-        </svg>
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow">Information Technology Student · Networking</p>
-            <h1 id="hero-title">Hello, I’m<br />Dan Aeron P. Belda.</h1>
-            <p class="hero-intro">
-              Aspiring web developer and BSIT Networking student building practical experience in
-              software, mobile app, and machine-learning projects.
-            </p>
-            <div class="hero-actions">
-              <a class="button" href="#projects">View projects <span aria-hidden="true">↘</span></a
-              ><a class="button secondary" href="#contact"
-                >Get in touch <span aria-hidden="true">→</span></a
-              >
-            </div>
-            <p class="hero-note">
-              <span class="status-dot" aria-hidden="true"></span>Open to freelance work,
-              internships, and collaboration opportunities.
-            </p>
-          </div>
-          <div class="portrait-wrap">
-            <img
-              src="Profile pic.jpg"
-              alt="Portrait of Dan Aeron P. Belda"
-              width="340"
-              height="425"
-              fetchpriority="high"
-            />
-          </div>
-        </div>
-      </section>
-      <section class="section" id="about" aria-labelledby="about-title">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">A little about me</p>
-            <h2 id="about-title">About</h2>
-            <p>My studies, interests, and the work I’m learning to do.</p>
-          </div>
-          <div class="panel about-copy">
-            <p>
-              I am a fourth-year BSIT major in Networking student at Batangas State University with
-              hands-on experience in computer software and hardware development, mobile app
-              development, and project-based learning.
-            </p>
-            <p>
-              My focus is on building a strong foundation in web development, app development, and
-              networking while improving how I solve problems, collaborate, and communicate
-              technology ideas in practical ways.
-            </p>
-            <div class="info-grid" aria-label="Personal and education details">
-              <div class="info-chip">
-                <span class="info-symbol" aria-hidden="true">⌂</span><strong>Location</strong
-                ><br />San Pablo, Laguna
-              </div>
-              <div class="info-chip">
-                <span class="info-symbol" aria-hidden="true">◌</span><strong>Year level</strong
-                ><br />4th Year
-              </div>
-              <div class="info-chip">
-                <span class="info-symbol" aria-hidden="true">▣</span><strong>Course</strong
-                ><br />BSIT major in Networking
-              </div>
-              <div class="info-chip">
-                <span class="info-symbol" aria-hidden="true">✦</span><strong>Focus</strong><br />Web
-                &amp; app development
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section alt" id="skills" aria-labelledby="skills-title">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">What I work with</p>
-            <h2 id="skills-title">Skills</h2>
-            <p>A quick scan of the tools and technologies I’ve studied and used.</p>
-          </div>
-          <div class="skill-grid">
-            <article class="skill-card">
-              <h3><span aria-hidden="true">⌁</span> Programming</h3>
-              <ul class="tag-list">
-                <li>C++</li>
-                <li>Java</li>
-                <li>PHP</li>
-                <li>HTML / CSS</li>
-                <li>JavaScript</li>
-              </ul>
-            </article>
-            <article class="skill-card">
-              <h3><span aria-hidden="true">◇</span> Tools &amp; workflow</h3>
-              <ul class="tag-list">
-                <li>GitHub</li>
-                <li>VS Code</li>
-                <li>Bootstrap</li>
-                <li>Canva</li>
-                <li>Eclipse</li>
-              </ul>
-            </article>
-            <article class="skill-card">
-              <h3><span aria-hidden="true">✧</span> App development</h3>
-              <ul class="tag-list">
-                <li>Flutter</li>
-                <li>Dart</li>
-              </ul>
-            </article>
-            <article class="skill-card">
-              <h3><span aria-hidden="true">✽</span> Machine learning</h3>
-              <ul class="tag-list">
-                <li>YOLO V2</li>
-                <li>Roboflow</li>
-                <li>Google Colab</li>
-              </ul>
-            </article>
-          </div>
-        </div>
-      </section>
-      <section class="section" id="experience" aria-labelledby="experience-title">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Learning through doing</p>
-            <h2 id="experience-title">Experience &amp; certifications</h2>
-            <p>Freelance work and project-based learning.</p>
-          </div>
-          <div class="tabs-shell">
-            <div class="tablist" role="tablist" aria-label="Experience and certifications">
-              <button
-                class="tab-button"
-                id="experience-tab"
-                type="button"
-                role="tab"
-                aria-selected="true"
-                aria-controls="panel-experience"
-                tabindex="0"
-              >
-                Experience</button
-              ><button
-                class="tab-button"
-                id="certifications"
-                type="button"
-                role="tab"
-                aria-selected="false"
-                aria-controls="panel-certifications"
-                tabindex="-1"
-              >
-                Certifications
-              </button>
-            </div>
-            <div
-              class="tab-panel"
-              id="panel-experience"
-              role="tabpanel"
-              aria-labelledby="experience-tab"
-            >
-              <article class="experience-card">
-                <p class="section-kicker">Work experience</p>
-                <h3>Freelance</h3>
-                <p class="meta"><time datetime="2026-10">October 2026</time> — Present</p>
-                <ul>
-                  <li>
-                    Developing and delivering small-scale app and software solutions based on client
-                    needs.
-                  </li>
-                  <li>
-                    Working on modern technologies and project-based learning to improve technical
-                    skills and problem-solving abilities.
-                  </li>
-                </ul>
-              </article>
-            </div>
-            <div
-              class="tab-panel"
-              id="panel-certifications"
-              role="tabpanel"
-              aria-labelledby="certifications"
-              hidden
-            >
-              <div class="cert-grid">
-                <article class="cert-card">
-                  <div class="cert-content">
-                    <span class="cert-badge">Certificate of Participation</span>
-                    <h3>
-                      Navigating the Digital Landscape 2023 - Connecting Concepts, Bridging
-                      Technologies
-                    </h3>
-                    <dl class="cert-meta">
-                      <div>
-                        <dt>Issuer</dt>
-                        <dd>
-                          Junior Philippine Computer Society (JPCS), Lipa Chapter, Batangas State
-                          University TheNEU - Lipa
-                        </dd>
-                      </div>
-                      <div>
-                        <dt>Type</dt>
-                        <dd>Certificate of Participation</dd>
-                      </div>
-                      <div>
-                        <dt>Date</dt>
-                        <dd>December 4, 2023</dd>
-                      </div>
-                    </dl>
-                    <p class="cert-description">
-                      Participation in a technology-focused event on digital literacy, emerging
-                      concepts, and practical connections between digital tools and systems.
-                    </p>
-                    <button
-                      class="button tertiary cert-lightbox-trigger"
-                      type="button"
-                      data-image="certificate-techsynergy.jpg"
-                      data-title="Navigating the Digital Landscape 2023 - Connecting Concepts, Bridging Technologies"
-                    >
-                      View certificate image
-                    </button>
-                  </div>
-                  <div class="cert-media">
-                    <img
-                      src="certificate-techsynergy.jpg"
-                      alt="TechSynergy certificate for Navigating the Digital Landscape 2023 - Connecting Concepts, Bridging Technologies"
-                      width="240"
-                      height="160"
-                      loading="lazy"
-                    />
-                    <div class="image-fallback">Certificate preview is unavailable.</div>
-                  </div>
-                </article>
-                <article class="cert-card">
-                  <div class="cert-content">
-                    <span class="cert-badge">Training badge</span>
-                    <h3>AWS Academy Cloud Foundations</h3>
-                    <dl class="cert-meta">
-                      <div>
-                        <dt>Issuer</dt>
-                        <dd>Amazon Web Services</dd>
-                      </div>
-                      <div>
-                        <dt>Type</dt>
-                        <dd>Training badge</dd>
-                      </div>
-                      <div>
-                        <dt>Status</dt>
-                        <dd>Trained</dd>
-                      </div>
-                      <div>
-                        <dt>Year</dt>
-                        <dd>2026</dd>
-                      </div>
-                    </dl>
-                    <p class="cert-description">
-                      Foundational cloud concepts and AWS Academy learning outcomes in a training
-                      environment.
-                    </p>
-                    <button
-                      class="button tertiary cert-lightbox-trigger"
-                      type="button"
-                      data-image="aws-academy-cloud-foundations.png"
-                      data-title="AWS Academy Cloud Foundations"
-                    >
-                      View certificate image
-                    </button>
-                  </div>
-                  <div class="cert-media">
-                    <img
-                      src="aws-academy-cloud-foundations.png"
-                      alt="AWS Academy Cloud Foundations certificate"
-                      width="240"
-                      height="160"
-                      loading="lazy"
-                    />
-                    <div class="image-fallback">Certificate preview is unavailable.</div>
-                  </div>
-                </article>
-                <article class="cert-card">
-                  <div class="cert-content">
-                    <span class="cert-badge">Course attendance</span>
-                    <h3>Red Hat OpenShift Development I: Introduction to Containers with Podman</h3>
-                    <dl class="cert-meta">
-                      <div>
-                        <dt>Issuer</dt>
-                        <dd>Red Hat Academy</dd>
-                      </div>
-                      <div>
-                        <dt>Type</dt>
-                        <dd>Red Hat Academy course attendance</dd>
-                      </div>
-                      <div>
-                        <dt>Year</dt>
-                        <dd>2026</dd>
-                      </div>
-                    </dl>
-                    <p class="cert-description">
-                      Course attendance focused on containers, Podman, and foundational OpenShift
-                      development workflows.
-                    </p>
-                    <button
-                      class="button tertiary cert-lightbox-trigger"
-                      type="button"
-                      data-image="redhat-openshift-podman.png"
-                      data-title="Red Hat OpenShift Development I: Introduction to Containers with Podman"
-                    >
-                      View certificate image
-                    </button>
-                  </div>
-                  <div class="cert-media">
-                    <img
-                      src="redhat-openshift-podman.png"
-                      alt="Red Hat OpenShift Development I certificate"
-                      width="240"
-                      height="160"
-                      loading="lazy"
-                    />
-                    <div class="image-fallback">Certificate preview is unavailable.</div>
-                  </div>
-                </article>
-                <article class="cert-card">
-                  <div class="cert-content">
-                    <span class="cert-badge">Certificate of Participation</span>
-                    <h3>Safeguarding Digital Freedom and Resilience Participation</h3>
-                    <dl class="cert-meta">
-                      <div>
-                        <dt>Issuer</dt>
-                        <dd>[needs your input]</dd>
-                      </div>
-                      <div>
-                        <dt>Type</dt>
-                        <dd>Certificate of Participation</dd>
-                      </div>
-                      <div>
-                        <dt>Year</dt>
-                        <dd>[needs your input]</dd>
-                      </div>
-                    </dl>
-                    <p class="cert-description">[needs your input]</p>
-                    <button
-                      class="button tertiary cert-lightbox-trigger"
-                      type="button"
-                      data-image="image_2026-11-13_215254351.png"
-                      data-title="Safeguarding Digital Freedom and Resilience Participation"
-                    >
-                      View certificate image
-                    </button>
-                  </div>
-                  <div class="cert-media">
-                    <img
-                      src="image_2026-11-13_215254351.png"
-                      alt="Safeguarding Digital Freedom and Resilience participation certificate"
-                      width="240"
-                      height="160"
-                      loading="lazy"
-                    />
-                    <div class="image-fallback">Certificate preview is unavailable.</div>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section alt" id="projects" aria-labelledby="projects-title">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Selected work</p>
-            <h2 id="projects-title">Projects</h2>
-            <p>Selected projects from my academic and learning work.</p>
-          </div>
-          <div class="project-list">
-            <article class="project-card" data-project="corn">
-              <div class="project-visual image-frame">
-                <img
-                  src="Screenshot 2026-11-13 222449.png"
-                  alt="Screenshot of the Corn Leaf Disease Detection System project"
-                  width="640"
-                  height="420"
-                  loading="lazy"
-                />
-                <div class="image-fallback">Project image is unavailable.</div>
-              </div>
-              <div class="project-content">
-                <p class="project-role">Front-end Developer · Capstone Project</p>
-                <h3>
-                  Corn Leaf Disease Detection System through Machine-Learning YOLOv2 Algorithm
-                  Approach
-                </h3>
-                <p class="meta-line"><time datetime="2025-12">December 2025</time></p>
-                <p>
-                  Developed a monitoring system to support disease detection using image recognition
-                  for Farmers of Lipa.
-                </p>
-                <dl class="project-slots">
-                  <div>
-                    <dt>Role</dt>
-                    <dd>Front-end Developer</dd>
-                  </div>
-                  <div>
-                    <dt>Tools</dt>
-                    <dd class="tag-list">
-                      <span class="tech-tag">DecerFlow</span
-                      ><span class="tech-tag">Ultralytics</span
-                      ><span class="tech-tag">Google Colab</span
-                      ><span class="tech-tag">Flutter</span><span class="tech-tag">Dart</span
-                      ><span class="tech-tag">Censor Flowlight</span>
-                    </dd>
-                  </div>
-                </dl>
-              </div>
-            </article>
-            <article class="project-card" data-project="parking">
-              <div class="project-visual image-frame">
-                <img
-                  src="Parking System.jpg"
-                  alt="Screenshot of the Smart Parking System project interface"
-                  width="640"
-                  height="420"
-                  loading="lazy"
-                />
-                <div class="image-fallback">Project image is unavailable.</div>
-              </div>
-              <div class="project-content">
-                <p class="project-role">Front-end Developer · SIA Project</p>
-                <h3>Smart Parking System</h3>
-                <p class="meta-line"><time datetime="2025-12">December 2025</time></p>
-                <p>
-                  Built the user interface for a smart parking system that organizes vehicle
-                  information and parking operations in a more user-friendly way.
-                </p>
-                <dl class="project-slots">
-                  <div>
-                    <dt>Role</dt>
-                    <dd>Front-end Developer</dd>
-                  </div>
-                  <div>
-                    <dt>Tools</dt>
-                    <dd class="tag-list">
-                      <span class="tech-tag">Arduino IDE</span><span class="tech-tag">PHP</span
-                      ><span class="tech-tag">MySQL</span><span class="tech-tag">HTML</span
-                      ><span class="tech-tag">CSS</span><span class="tech-tag">JavaScript</span
-                      ><span class="tech-tag">Bootstrap</span><span class="tech-tag">ESP32</span
-                      ><span class="tech-tag">IR Sensor</span
-                      ><span class="tech-tag">Servo Motor (SG90)</span>
-                    </dd>
-                  </div>
-                </dl>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-      <section class="section" id="contact" aria-labelledby="contact-title">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Let’s connect</p>
-            <h2 id="contact-title">Contact</h2>
-            <p>Email is the best way to reach me. You can also call or connect on social media.</p>
-          </div>
-          <div class="contact-grid">
-            <div class="contact-card email-card">
-              <p class="section-kicker">Email</p>
-              <h3>Start a conversation</h3>
-              <a class="email-link" href="mailto:danaeronbelda7@gmail.com"
-                >danaeronbelda7@gmail.com</a
-              >
-              <div class="actions">
-                <button class="button email-copy" id="copy-email" type="button">Copy email</button>
-              </div>
-              <p class="copy-status" id="copy-status" aria-live="polite"></p>
-            </div>
-            <div class="contact-card">
-              <p class="section-kicker">Other contacts</p>
-              <div class="contact-links" aria-label="Other contact methods">
-                <a class="contact-link" href="tel:+639943663346"
-                  >Call <span dir="ltr">09943663346</span></a
-                ><a
-                  class="contact-link"
-                  href="https://www.facebook.com/dan.aeron.belda.2024/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Facebook · Dan Aeron Belda</a
-                ><a
-                  class="contact-link"
-                  href="https://www.instagram.com/__beldan__/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  >Instagram · __beldan__</a
-                ><a
-                  class="contact-link"
-                  href="https://www.linkedin.com/in/dan-aeron-belda-14b81044a/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Connect with Dan Aeron Belda on LinkedIn"
-                  >LinkedIn · Dan Aeron Belda</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="container">
-        <p>© <span id="year"></span> Dan Aeron P. Belda · Student portfolio</p>
-      </div>
-    </footer>
-    <div class="lightbox" id="lightbox" hidden aria-hidden="true">
-      <div
-        class="lightbox-panel"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="lightbox-title"
-        aria-describedby="lightbox-caption"
-        tabindex="-1"
-      >
-        <div class="lightbox-header">
-          <h2 class="lightbox-title" id="lightbox-title">Certificate</h2>
-          <button
-            class="lightbox-close"
-            id="lightbox-close"
-            type="button"
-            aria-label="Close certificate view"
-          >
-            ×
-          </button>
-        </div>
-        <div class="lightbox-body">
-          <img id="lightbox-image" src="" alt="" />
-          <p class="lightbox-caption" id="lightbox-caption"></p>
-        </div>
-        <div class="gallery-controls" id="gallery-controls" hidden>
-          <button class="gallery-nav" id="gallery-prev" type="button" aria-label="Previous image">
-            ← Previous</button
-          ><button class="gallery-nav" id="gallery-next" type="button" aria-label="Next image">
-            Next →
-          </button>
-        </div>
-      </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1ea">
+  <meta name="description" content="Portfolio of Dan Aeron P. Belda, an aspiring web developer and BSIT Networking student in San Pablo, Laguna.">
+  <meta name="author" content="Dan Aeron P. Belda">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dan Aeron P. Belda — Web Development & Networking">
+  <meta property="og:description" content="Student developer focused on practical web, mobile, networking, and machine-learning projects.">
+  <meta property="og:url" content="https://danbelda.github.io/Portfolio/">
+  <meta property="og:image" content="https://danbelda.github.io/Portfolio/Profile%20pic.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b36b0'/%3E%3Cpath d='M18 44V20h8l12 15V20h8v24h-8L26 29v15z' fill='white'/%3E%3C/svg%3E">
+  <title>Dan Aeron P. Belda — Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Dan Belda, back to top">
+        <span class="brand-mark" aria-hidden="true">DB</span>
+        <span>Dan Belda</span>
+      </a>
+      <button class="menu-button" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="nav-panel" id="nav-panel" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#credentials">Credentials</a>
+        <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
-    <script>
-      (() => {
-        const body = document.body,
-          root = document.documentElement,
-          themeButton = document.getElementById("theme-toggle"),
-          themeMeta = document.querySelector('meta[name="theme-color"]'),
-          systemDark = window.matchMedia("(prefers-color-scheme: dark)");
-        let savedTheme = null;
-        try {
-          savedTheme = localStorage.getItem("portfolio-theme");
-        } catch {}
-        if (savedTheme === "light" || savedTheme === "dark") root.dataset.theme = savedTheme;
-        else root.dataset.theme = systemDark.matches ? "dark" : "light";
-        const darkNow = () =>
-          root.dataset.theme ? root.dataset.theme === "dark" : systemDark.matches;
-        function updateTheme() {
-          const dark = darkNow();
-          themeButton.setAttribute("aria-pressed", String(dark));
-          themeButton.setAttribute(
-            "aria-label",
-            dark ? "Switch to light mode" : "Switch to dark mode",
-          );
-          if (themeMeta) themeMeta.content = dark ? "#0e1422" : "#101a31";
-        }
-        updateTheme();
-        themeButton.addEventListener("click", () => {
-          root.dataset.theme = darkNow() ? "light" : "dark";
-          try {
-            localStorage.setItem("portfolio-theme", root.dataset.theme);
-          } catch {}
-          updateTheme();
-        });
-        systemDark.addEventListener?.("change", () => {
-          if (!root.dataset.theme) updateTheme();
-        });
-        const menuButton = document.getElementById("menu-toggle"),
-          navPanel = document.getElementById("nav-panel");
-        function closeMenu() {
-          navPanel.dataset.open = "false";
-          menuButton.setAttribute("aria-expanded", "false");
-          menuButton.setAttribute("aria-label", "Open navigation menu");
-        }
-        menuButton.addEventListener("click", () => {
-          const open = navPanel.dataset.open !== "true";
-          navPanel.dataset.open = String(open);
-          menuButton.setAttribute("aria-expanded", String(open));
-          menuButton.setAttribute(
-            "aria-label",
-            open ? "Close navigation menu" : "Open navigation menu",
-          );
-        });
-        const navLinks = [...document.querySelectorAll(".nav-links a")];
-        navLinks.forEach((link) =>
-          link.addEventListener("click", () => {
-            closeMenu();
-            const target = link.getAttribute("href");
-            if (target === "#experience" || target === "#certifications")
-              selectTab(target.slice(1), false);
-          }),
-        );
-        const sections = navLinks
-          .map((link) => document.querySelector(link.getAttribute("href")))
-          .filter((el) => el && el.tagName === "SECTION");
-        if ("IntersectionObserver" in window) {
-          const observer = new IntersectionObserver(
-            (entries) =>
-              entries.forEach((entry) => {
-                if (!entry.isIntersecting) return;
-                navLinks.forEach((link) => {
-                  const target = link.getAttribute("href");
-                  const active = target === `#${entry.target.id}`;
-                  if (active) link.setAttribute("aria-current", "location");
-                  else link.removeAttribute("aria-current");
-                });
-              }),
-            { rootMargin: "-35% 0px -55% 0px" },
-          );
-          sections.forEach((section) => observer.observe(section));
-        }
-        const tabButtons = [...document.querySelectorAll('[role="tab"]')],
-          tabPanels = [...document.querySelectorAll('[role="tabpanel"]')];
-        function selectTab(id, writeHash = true) {
-          const isCert = id === "certifications";
-          tabButtons.forEach((button) => {
-            const active = (button.id === "certifications") === isCert;
-            button.setAttribute("aria-selected", String(active));
-            button.tabIndex = active ? 0 : -1;
-          });
-          tabPanels.forEach(
-            (panel) =>
-              (panel.hidden = panel.id == (isCert ? "panel-experience" : "panel-certifications")),
-          );
-          if (writeHash) {
-            const hash = isCert ? "#certifications" : "#experience";
-            history.replaceState(null, "", `${location.pathname}${location.search}${hash}`);
-          }
-          navLinks.forEach((link) => {
-            if (
-              link.getAttribute("href") === "#experience" ||
-              link.getAttribute("href") === "#certifications"
-            ) {
-              if (link.getAttribute("href") == (isCert ? "#certifications" : "#experience"))
-                link.setAttribute("aria-current", "location");
-              else link.removeAttribute("aria-current");
-            }
-          });
-        }
-        tabButtons.forEach((button) => {
-          button.addEventListener("click", () =>
-            selectTab(button.id === "certifications" ? "certifications" : "experience"),
-          );
-          button.addEventListener("keydown", (event) => {
-            const i = tabButtons.indexOf(button);
-            let next = i;
-            if (event.key === "ArrowRight" || event.key === "ArrowDown")
-              next = (i + 1) % tabButtons.length;
-            if (event.key === "ArrowLeft" || event.key === "ArrowUp")
-              next = (i - 1 + tabButtons.length) % tabButtons.length;
-            if (event.key === "Home") next = 0;
-            if (event.key === "End") next = tabButtons.length - 1;
-            if (next !== i) {
-              event.preventDefault();
-              tabButtons[next].focus();
-              selectTab(tabButtons[next].id === "certifications" ? "certifications" : "experience");
-            }
-          });
-        });
-        function syncTabs() {
-          if (location.hash === "#certifications") selectTab("certifications", false);
-          else if (location.hash === "#experience") selectTab("experience", false);
-        }
-        syncTabs();
-        window.addEventListener("hashchange", syncTabs);
-        document
-          .querySelectorAll(".image-frame img,.cert-media img")
-          .forEach((image) =>
-            image.addEventListener(
-              "error",
-              () => image.parentElement.classList.add("image-failed"),
-              { once: true },
-            ),
-          );
-        const lightbox = document.getElementById("lightbox"),
-          dialog = lightbox.querySelector('[role="dialog"]'),
-          lightboxImage = document.getElementById("lightbox-image"),
-          lightboxTitle = document.getElementById("lightbox-title"),
-          lightboxCaption = document.getElementById("lightbox-caption"),
-          lightboxClose = document.getElementById("lightbox-close");
-        let returnFocus = null;
-        function openCertificate(button) {
-          returnFocus = document.activeElement;
-          lightboxImage.src = button.dataset.image;
-          lightboxImage.alt = button.dataset.title;
-          lightboxTitle.textContent = button.dataset.title;
-          lightboxCaption.textContent = button.dataset.title;
-          lightbox.hidden = false;
-          lightbox.setAttribute("aria-hidden", "false");
-          body.style.overflow = "hidden";
-          lightboxClose.focus();
-        }
-        function closeLightbox() {
-          lightbox.hidden = true;
-          lightbox.setAttribute("aria-hidden", "true");
-          lightboxImage.removeAttribute("src");
-          body.style.overflow = "";
-          if (returnFocus) returnFocus.focus();
-        }
-        document
-          .querySelectorAll(".cert-lightbox-trigger")
-          .forEach((button) => button.addEventListener("click", () => openCertificate(button)));
-        lightboxClose.addEventListener("click", closeLightbox);
-        lightbox.addEventListener("click", (event) => {
-          if (event.target === lightbox) closeLightbox();
-        });
-        document.addEventListener("keydown", (event) => {
-          if (event.key === "Escape") {
-            if (!lightbox.hidden) closeLightbox();
-            closeMenu();
-          }
-          if (lightbox.hidden || event.key !== "Tab") return;
-          const focusable = [...dialog.querySelectorAll("button:not([disabled])")];
-          const first = focusable[0],
-            last = focusable[focusable.length - 1];
-          if (event.shiftKey && document.activeElement === first) {
-            event.preventDefault();
-            last.focus();
-          } else if (!event.shiftKey && document.activeElement === last) {
-            event.preventDefault();
-            first.focus();
-          }
-        });
-        document.getElementById("year").textContent = String(new Date().getFullYear());
-        document.getElementById("copy-email").addEventListener("click", async () => {
-          const status = document.getElementById("copy-status");
-          try {
-            await navigator.clipboard.writeText("danaeronbelda7@gmail.com");
-            status.textContent = "Email copied to clipboard.";
-          } catch {
-            status.textContent =
-              "Copy unavailable here. Select the email address above to copy it.";
-          }
-        });
-      })();
-    </script>
-  </body>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Available for opportunities</p>
+          <h1 id="hero-title">I build thoughtful digital <em>experiences.</em></h1>
+          <p class="hero-intro">I’m Dan, a fourth-year BSIT Networking student and aspiring developer creating practical solutions across web, mobile, and machine learning.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="hero-portrait" aria-label="Portrait of Dan Aeron P. Belda">
+          <div class="portrait-frame">
+            <img src="Profile pic.jpg" alt="Dan Aeron P. Belda" width="420" height="520" fetchpriority="high">
+          </div>
+          <div class="portrait-tag tag-one">BSIT · Networking</div>
+          <div class="portrait-tag tag-two"><span class="pulse"></span> Open to work</div>
+        </div>
+      </div>
+      <div class="container hero-meta">
+        <p><span>01</span> Based in San Pablo, Laguna</p>
+        <p><span>02</span> Web · Mobile · Networking</p>
+        <p><span>03</span> Student · Freelancer</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-label"><span>01</span><p>About me</p></div>
+        <div class="about-grid">
+          <h2 id="about-title">Curious by nature.<br><em>Builder by practice.</em></h2>
+          <div class="about-copy">
+            <p class="lead">I turn academic problems and real-world needs into clear, usable software.</p>
+            <p>I’m a fourth-year BSIT student majoring in Networking at Batangas State University. My experience spans software, hardware, mobile applications, and machine-learning projects—and I’m continually sharpening both my technical and communication skills.</p>
+            <a class="text-link" href="#skills">What I work with <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <dl class="stats" aria-label="Profile summary">
+          <div><dt>4th</dt><dd>Year BSIT student</dd></div>
+          <div><dt>2+</dt><dd>Featured projects</dd></div>
+          <div><dt>4</dt><dd>Learning credentials</dd></div>
+          <div><dt>∞</dt><dd>Curiosity to improve</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-label"><span>02</span><p>Skills & tools</p></div>
+        <div class="section-heading">
+          <h2 id="skills-title">A versatile <em>toolkit.</em></h2>
+          <p>Languages and platforms I use to learn, prototype, and ship.</p>
+        </div>
+        <div class="skill-grid">
+          <article class="skill-card"><div class="skill-number">01</div><h3>Development</h3><ul><li>HTML & CSS</li><li>JavaScript</li><li>PHP</li><li>Java</li><li>C++</li></ul></article>
+          <article class="skill-card"><div class="skill-number">02</div><h3>Mobile</h3><ul><li>Flutter</li><li>Dart</li><li>Responsive interfaces</li></ul></article>
+          <article class="skill-card"><div class="skill-number">03</div><h3>Data & AI</h3><ul><li>YOLO V2</li><li>TensorFlow Lite</li><li>Roboflow</li><li>Google Colab</li></ul></article>
+          <article class="skill-card"><div class="skill-number">04</div><h3>Workflow</h3><ul><li>GitHub</li><li>VS Code</li><li>Bootstrap</li><li>Canva</li></ul></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-label"><span>03</span><p>Selected work</p></div>
+        <div class="projects-head">
+          <h2 id="projects-title">Projects with<br><em>purpose.</em></h2>
+          <p>Built through academic and project-based learning, from model integration to user-facing dashboards.</p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card">
+            <a class="project-image" href="Screenshot 2026-11-13 222449.png" target="_blank" rel="noopener" aria-label="Open Corn Leaf project screenshot">
+              <img src="Screenshot 2026-11-13 222449.png" alt="Corn leaf disease detection system interface" width="800" height="520" loading="lazy">
+              <span class="project-view">View image ↗</span>
+            </a>
+            <div class="project-info">
+              <p class="project-index">Project 01 · Capstone</p>
+              <h3>Corn Leaf Disease Detection System</h3>
+              <p>A machine-learning system that helps identify corn leaf diseases through image recognition for farmers in Lipa.</p>
+              <dl><div><dt>My role</dt><dd>Front-end Developer</dd></div><div><dt>Stack</dt><dd>Flutter · Dart · TensorFlow Lite · Google Colab</dd></div></dl>
+            </div>
+          </article>
+
+          <article class="project-card reverse">
+            <a class="project-image" href="Parking System.jpg" target="_blank" rel="noopener" aria-label="Open Smart Parking System screenshot">
+              <img src="Parking System.jpg" alt="Smart parking system project" width="800" height="520" loading="lazy">
+              <span class="project-view">View image ↗</span>
+            </a>
+            <div class="project-info">
+              <p class="project-index">Project 02 · SIA</p>
+              <h3>Smart Parking System</h3>
+              <p>An integrated parking solution that organizes vehicle information and simplifies everyday parking operations.</p>
+              <dl><div><dt>My role</dt><dd>Front-end Developer</dd></div><div><dt>Stack</dt><dd>PHP · MySQL · JavaScript · Bootstrap · ESP32</dd></div></dl>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section credentials" id="credentials" aria-labelledby="credentials-title">
+      <div class="container">
+        <div class="section-label"><span>04</span><p>Experience & credentials</p></div>
+        <div class="credentials-layout">
+          <div>
+            <h2 id="credentials-title">Learning in<br><em>motion.</em></h2>
+            <div class="experience-block">
+              <p class="project-index">Experience · October 2026–Present</p>
+              <h3>Freelance Developer</h3>
+              <p>Developing small-scale app and software solutions while strengthening technical skills and practical problem-solving.</p>
+            </div>
+          </div>
+          <div class="certificate-list">
+            <article><p class="project-index">AWS · 2026</p><h3>AWS Academy Cloud Foundations</h3><button type="button" class="certificate-button" data-image="aws-academy-cloud-foundations.png" data-title="AWS Academy Cloud Foundations">View credential <span>↗</span></button></article>
+            <article><p class="project-index">Red Hat · 2026</p><h3>OpenShift Development I: Containers with Podman</h3><button type="button" class="certificate-button" data-image="redhat-openshift-podman.png" data-title="Red Hat OpenShift Development I: Introduction to Containers with Podman">View credential <span>↗</span></button></article>
+            <article><p class="project-index">JPCS · December 2023</p><h3>Navigating the Digital Landscape</h3><button type="button" class="certificate-button" data-image="certificate-techsynergy.jpg" data-title="Navigating the Digital Landscape 2023">View credential <span>↗</span></button></article>
+            <article><p class="project-index">Participation certificate</p><h3>Safeguarding Digital Freedom and Resilience</h3><button type="button" class="certificate-button" data-image="image_2026-11-13_215254351.png" data-title="Safeguarding Digital Freedom and Resilience Participation">View credential <span>↗</span></button></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-label"><span>05</span><p>Contact</p></div>
+        <div class="contact-grid">
+          <div>
+            <p class="contact-kicker">Have a project or opportunity?</p>
+            <h2 id="contact-title">Let’s make something <em>meaningful.</em></h2>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:danaeronbelda7@gmail.com">Start a conversation <span aria-hidden="true">↗</span></a>
+            <button class="text-link copy-email" id="copy-email" type="button">Copy email <span aria-hidden="true">⧉</span></button>
+            <p class="copy-status" id="copy-status" aria-live="polite"></p>
+          </div>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:danaeronbelda7@gmail.com">Email <span>danaeronbelda7@gmail.com</span></a>
+          <a href="tel:+639943663346">Phone <span>0994 366 3346</span></a>
+          <a href="https://www.linkedin.com/in/dan-aeron-belda-14b81044a/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+          <a href="https://www.facebook.com/dan.aeron.belda.2024/" target="_blank" rel="noopener">Facebook <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row"><p>© <span id="year"></span> Dan Aeron P. Belda</p><a href="#top">Back to top ↑</a></div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" hidden aria-hidden="true">
+    <div class="lightbox-panel" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" tabindex="-1">
+      <div class="lightbox-header"><h2 id="lightbox-title">Credential</h2><button id="lightbox-close" type="button" aria-label="Close certificate view">×</button></div>
+      <div class="lightbox-body"><img id="lightbox-image" src="" alt=""></div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const menuButton = document.getElementById('menu-toggle');
+      const navPanel = document.getElementById('nav-panel');
+      const closeMenu = () => { navPanel.classList.remove('is-open'); menuButton.setAttribute('aria-expanded','false'); };
+      menuButton.addEventListener('click', () => {
+        const open = !navPanel.classList.contains('is-open');
+        navPanel.classList.toggle('is-open', open);
+        menuButton.setAttribute('aria-expanded', String(open));
+      });
+      navPanel.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
+
+      const header = document.querySelector('.site-header');
+      const updateHeader = () => header.classList.toggle('scrolled', window.scrollY > 16);
+      window.addEventListener('scroll', updateHeader, {passive:true}); updateHeader();
+
+      const sections = [...document.querySelectorAll('main section[id]')];
+      const navLinks = [...navPanel.querySelectorAll('a[href^="#"]')];
+      if ('IntersectionObserver' in window) {
+        const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id));
+        }), {rootMargin:'-35% 0px -55% 0px'});
+        sections.forEach(section => observer.observe(section));
+      }
+
+      const lightbox = document.getElementById('lightbox');
+      const dialog = lightbox.querySelector('[role="dialog"]');
+      const image = document.getElementById('lightbox-image');
+      const title = document.getElementById('lightbox-title');
+      let returnFocus;
+      const closeLightbox = () => { lightbox.hidden=true; lightbox.setAttribute('aria-hidden','true'); document.body.classList.remove('modal-open'); image.removeAttribute('src'); if(returnFocus) returnFocus.focus(); };
+      document.querySelectorAll('.certificate-button').forEach(button => button.addEventListener('click', () => {
+        returnFocus=document.activeElement; image.src=button.dataset.image; image.alt=button.dataset.title; title.textContent=button.dataset.title;
+        lightbox.hidden=false; lightbox.setAttribute('aria-hidden','false'); document.body.classList.add('modal-open'); document.getElementById('lightbox-close').focus();
+      }));
+      document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+      lightbox.addEventListener('click', event => { if(event.target===lightbox) closeLightbox(); });
+      document.addEventListener('keydown', event => { if(event.key==='Escape'){ closeLightbox(); closeMenu(); } if(event.key==='Tab'&&!lightbox.hidden){ event.preventDefault(); document.getElementById('lightbox-close').focus(); } });
+
+      document.getElementById('year').textContent = new Date().getFullYear();
+      document.getElementById('copy-email').addEventListener('click', async () => {
+        const status=document.getElementById('copy-status');
+        try { await navigator.clipboard.writeText('danaeronbelda7@gmail.com'); status.textContent='Email copied to clipboard.'; }
+        catch { status.textContent='Select danaeronbelda7@gmail.com to copy it.'; }
+      });
+    })();
+  </script>
+</body>
 </html>
